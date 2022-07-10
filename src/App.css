@@ -12,10 +12,11 @@ body {
 }
 .navbar-nav {
   width: 100%;
-  margin-left: 50rem;
+  /* margin-left: 50rem; */
   padding: 0 2rem 0 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 2rem;
   align-items: center;
   font-family: "Roboto Slab", serif;
   font-size: 24px;
@@ -50,6 +51,7 @@ body {
   font-weight: bold;
   font-size: 64px;
 }
+
 .text {
   width: 30%;
   font-family: "Noto Serif", serif;
@@ -63,6 +65,9 @@ body {
   width: 15rem;
   height: 4rem;
 }
+.home-image{
+  width: 30vw;
+}
 
 /* Login page */
 
@@ -74,7 +79,7 @@ body {
   background-color: black;
 }
 .login-img {
-  width: 90%;
+  width: 30vw;
 }
 .login-image {
   display: flex;
@@ -116,14 +121,15 @@ input {
 .forgot-pass-link {
   text-decoration: none;
   color: white;
+  width: fit-content;
 }
 .forgot-pass-link {
   margin-left: 8.5rem;
-  width: 16vh;
+  /* width: 16vh; */
 }
 .create-acc-link {
   margin-left: 3.5rem;
-  width: 16vh;
+  /* width: 16vh; */
 }
 
 /* about us page */
@@ -132,18 +138,25 @@ input {
   width: 30%;
   font-family: "Noto Serif", serif;
 }
+.about-image{
+  width: 50vh;
+}
 .inverted-btn {
   background-color: whitesmoke;
   color: black;
   font-family: "Noto Serif", serif;
   font-weight: bold;
   font-size: 20px;
-  width: 17rem;
+  /* width: 17rem; */
   height: 4rem;
 }
 .btns{
   display: flex;
   justify-content: space-between;
+  
+}
+.btns>.btn{
+  width: fit-content;
 }
 
 .team-page{
@@ -197,14 +210,22 @@ input {
 }
 .card-body{
   width: 80%;
-  height: 70px;
+  /* height: 70px; */
   font-family: "Noto Serif", serif;
   padding-top: 3rem;
+  overflow: scroll;
+}
+.card-body::-webkit-scrollbar {
+  display: none;
 }
 .card-img{
   display: flex;
   justify-content: center;
+  
   margin-bottom: 1rem;
+}
+.card-img>img{
+  width: 50%;
 }
 .card-btn{
   font-family: "Noto Serif", serif;

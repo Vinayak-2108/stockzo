@@ -11,7 +11,7 @@ const About = () => {
       <div className="full-page">
         <div className="image">
           <figure>
-            <img src={aboutimg} alt="about logo" />
+            <img src={aboutimg} className="about-image" alt="about logo" />
           </figure>
         </div>
         <div className="about-text">
