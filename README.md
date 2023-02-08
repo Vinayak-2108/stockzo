@@ -1,2 +1,2 @@
 
-[Deployed on netlify](https://st0cked.netlify.app/about)
+[Deployed on netlify](https://st0cked.netlify.app)
